@@ -2,7 +2,7 @@ clear all
 set more off, permanent
 capture log close
 
-global path1  "E:\OneDrive\IESR Teaching\计量软件应用\Lecture 1 Stata Basics\Stata Exercise" 
+global path1  "E:\OneDrive\Teaching\SoftwareEmpiricalEconomics\Lecture 1 Stata Basics\Stata Exercise" 
 log using "$path1\lecture1_1.txt", text replace
 cd "$path1"
 
